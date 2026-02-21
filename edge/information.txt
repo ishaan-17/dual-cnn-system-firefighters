@@ -1,0 +1,102 @@
+trial number - information 
+Trial #1:
+- 100 training example
+- 2 epoch
+- 32 batch size
+- About 20 minutes
+- Google Colab CPU
+- lsun/classroom dataset
+
+Trial #2: 
+- 5000 training examples
+- 2 epoch
+- 32 batch size
+- About 5 Hours
+- Google Colab CPU
+- lsun/classroom dataset
+
+Trial #3:
+- 200 Training example
+- 20 epoch
+- 8 batch size
+- 1 minute
+- NVIDIA GeForce RTX 3060 Ti
+- BIPEDv2 Dataset
+- Test Loss: 0.0083
+- Test Accuracy: 0.7726
+
+Trial #4:
+- 200 Training example
+- 50 epoch
+- 8 batch size
+- 2 minute
+- NVIDIA GeForce RTX 3060 Ti
+- BIPEDv2 Dataset
+- Test Loss: 0.00297
+- Test Accuracy: 0.773
+
+Trial #5: 
+- 200 Training example
+- 400 Training examples with data augmentations
+- 20 epoch
+- 8 batch size
+- 3 minute
+- NVIDIA GeForce RTX 3060 Ti
+- BIPEDv2 Dataset
+- Test Loss: 0.004185
+- Test Accuracy: 0.7726
+
+Trial #6: 
+- 200 Training examples
+- 400 Training examples with data augmentations
+- 20 epoch
+- 8 batch size
+- 3 minute
+- NVIDIA GeForce RTX 3060 Ti
+- BIPEDv2 Dataset
+- Test Loss: 0.158543
+- Test Accuracy: 0.772613
+
+Trial #7: 
+- 200 Training examples
+- 400 Training examples with data augmentations
+- 50 epoch
+- 8 batch size
+- 5 minute
+- NVIDIA GeForce RTX 3060 Ti
+- BIPEDv2 Dataset
+- Test Loss: 0.12604
+- Test Accuracy: 0.77261
+
+Trial #8: 
+- 200 Training examples
+- 1000 Training examples with data augmentations
+- 50 epoch
+- 16 batch size
+- 3 minutes
+- NVIDIA GeForce RTX 3060 Ti
+- BIPEDv2 Dataset
+- Test Loss: 0.1298045
+- Test Accuracy: 0.77261
+
+Trial #9:
+- 200 Training examples
+- 1000 Training examples with data augmentations
+- 30 epoch
+- 16 batch size
+- 2:33 minutes
+- NVIDIA GeForce RTX 3060 Ti
+- BIPEDv2 Dataset
+- Test Loss: 0.14896956086158752
+- Test Accuracy: 0.7726129293441772
+
+Trial #10:
+- Same thing before
+- Made the structure slightly different by changing to upscaling because tf lite
+
+Trial #11: (future works)
+- Same training procedure
+- Introduced Conv2D with stride (2, 2)
+- Conv2D -> SeparableConv2D
+- Delete Drop out layers
+- Delete MaxPooling2D layers
