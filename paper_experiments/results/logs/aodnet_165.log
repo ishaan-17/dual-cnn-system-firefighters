@@ -1,0 +1,2 @@
+train (augmented) (1320, 256, 256, 3) test (12, 256, 256, 3)
+AOD-Net: PSNR=17.08 SSIM=0.58 params=1761

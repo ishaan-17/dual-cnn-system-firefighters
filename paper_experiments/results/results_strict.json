@@ -1,0 +1,21 @@
+{
+  "cnn_trial_7": {
+    "ODS": 0.786,
+    "ODS_thresh": 0.1,
+    "OIS": 0.8
+  },
+  "cnn_trial_13": {
+    "ODS": 0.738,
+    "ODS_thresh": 0.05,
+    "OIS": 0.755
+  },
+  "canny_strict": {
+    "F": 0.692,
+    "high": 80
+  },
+  "cnn_trial_13_uint8": {
+    "ODS": 0.74,
+    "ODS_thresh": 0.05,
+    "OIS": 0.752
+  }
+}

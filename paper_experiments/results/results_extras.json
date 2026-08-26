@@ -1,0 +1,23 @@
+{
+  "edge_float32_trial13": {
+    "ODS": 0.853,
+    "thresh": 0.1
+  },
+  "edge_tflite_model_10": {
+    "ODS": 0.856,
+    "thresh": 0.05,
+    "x86_latency_ms": 17.8,
+    "size_kb": 56.1
+  },
+  "edge_tflite_model_11": {
+    "ODS": 0.854,
+    "thresh": 0.05,
+    "x86_latency_ms": 17.1,
+    "size_kb": 56.1
+  },
+  "dcp_baseline_smoke_test": {
+    "PSNR": 13.04,
+    "SSIM": 0.515,
+    "x86_latency_ms": 4.7
+  }
+}

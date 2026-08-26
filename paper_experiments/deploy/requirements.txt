@@ -1,0 +1,27 @@
+# Raspberry Pi dependencies — targets Python 3.7 (Raspberry Pi OS Buster, armv7l)
+#
+# tflite-runtime on PyPI only ships wheels for cp38-cp311, so `pip install
+# tflite-runtime` FAILS on Python 3.7. Install the bundled 2.11.0 cp37 wheel
+# instead (it came from this project's own repo):
+#
+#   pip3 install tflite_runtime-2.11.0-cp37-cp37m-manylinux2014_armv7l.whl
+#
+# Then the two remaining deps. On Buster, apt is far more reliable than pip for
+# opencv (pip will try to build from source and take ~40 min):
+#
+#   sudo apt install -y python3-opencv python3-numpy
+#
+# If you prefer pip for those, these are the last versions supporting Python 3.7:
+
+numpy>=1.19,<=1.21.6
+opencv-python>=4.5,<=4.6.0.66
+
+# tflite-runtime: DO NOT pip-install by name on Python 3.7 — use the bundled
+# wheel above. Listed here only for documentation:
+#   tflite-runtime==2.11.0   (cp37 wheel, armv7l)
+
+# --- if you ever move to Python 3.11+ ------------------------------------------
+#   pip3 install tflite-runtime          # 3.8-3.11
+#   pip3 install ai-edge-litert          # 3.10-3.14, aarch64 only (64-bit OS)
+# The benchmark script tries tflite_runtime first, then falls back to tensorflow,
+# so either path works without code changes.

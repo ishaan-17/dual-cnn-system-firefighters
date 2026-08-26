@@ -1,0 +1,33 @@
+{
+  "diagnosis": {
+    "edge_pixel_fraction": 0.0015,
+    "all_background_accuracy": 0.9985
+  },
+  "cnn_trial_7": {
+    "ODS": 0.2532,
+    "ODS_thresh": 0.25,
+    "OIS": 0.1314,
+    "SSIM": 0.5822,
+    "pixel_accuracy_at_0.5": 0.9985
+  },
+  "cnn_trial_11": {
+    "ODS": 0.3056,
+    "ODS_thresh": 0.25,
+    "OIS": 0.1183,
+    "SSIM": 0.5627,
+    "pixel_accuracy_at_0.5": 0.9985
+  },
+  "cnn_trial_13": {
+    "ODS": 0.1871,
+    "ODS_thresh": 0.2,
+    "OIS": 0.12,
+    "SSIM": 0.4541,
+    "pixel_accuracy_at_0.5": 0.9985
+  },
+  "canny_best": {
+    "F": 0.0503,
+    "F_per_img_mean": 0.0492,
+    "SSIM": 0.4619,
+    "high_thresh": 250
+  }
+}

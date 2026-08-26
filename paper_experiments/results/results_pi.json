@@ -1,0 +1,40 @@
+{
+  "device": "Raspberry Pi 4 Model B Rev 1.4",
+  "arch": "armv7l",
+  "os": "Raspberry Pi OS Buster (32-bit)",
+  "python": "3.7.3",
+  "runtime": "tflite-runtime 2.11.0",
+  "threads": 4,
+  "edge_only_ms": 90.57,
+  "dehaze_only_ms": 469.57,
+  "dehaze_plus_edge_ms": 568.79,
+  "gate_statistic_ms": 10.05,
+  "gated_when_firing_ms": {
+    "t=0.7": 563.32,
+    "t=0.5": 562.73,
+    "t=0.35": 559.58
+  },
+  "haze_scores": {
+    "t=0.7": 0.5887,
+    "t=0.5": 0.6491,
+    "t=0.35": 0.6943
+  },
+  "soak": {
+    "sustained_fps": 10.88,
+    "temp_start_c": 46.3,
+    "temp_end_c": 60.9,
+    "throttled": "0x0"
+  },
+  "threads_1": {
+    "edge_only_ms": 283.4,
+    "dehaze_only_ms": 766.79,
+    "dehaze_plus_edge_ms": 1051.38,
+    "gate_ms": 9.95
+  },
+  "derived": {
+    "mean_gated_4t_ms": 321.3,
+    "reduction_4t_pct": 43.5,
+    "mean_gated_1t_ms": 653.7,
+    "reduction_1t_pct": 37.8
+  }
+}

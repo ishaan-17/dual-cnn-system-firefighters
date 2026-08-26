@@ -1,0 +1,90 @@
+{
+  "dehazer_smoke_test": {
+    "per_trial": {
+      "1": {
+        "PSNR": 13.15,
+        "SSIM": 0.168
+      },
+      "2": {
+        "PSNR": 15.65,
+        "SSIM": 0.324
+      },
+      "3": {
+        "PSNR": 15.6,
+        "SSIM": 0.371
+      },
+      "4": {
+        "PSNR": 14.45,
+        "SSIM": 0.308
+      },
+      "5": {
+        "PSNR": 14.99,
+        "SSIM": 0.29
+      },
+      "6": "unloadable",
+      "7": {
+        "PSNR": 17.68,
+        "SSIM": 0.575
+      },
+      "8": {
+        "PSNR": 18.6,
+        "SSIM": 0.616
+      }
+    },
+    "best_trial": 8,
+    "input_baseline": {
+      "PSNR": 13.6,
+      "SSIM": 0.507
+    }
+  },
+  "smoke_edge_consistency_trial7": {
+    "hazy": {
+      "SSIM_vs_edge_clean": 0.628,
+      "F_vs_edge_clean": 0.684
+    },
+    "dehazed": {
+      "SSIM_vs_edge_clean": 0.705,
+      "F_vs_edge_clean": 0.805
+    }
+  },
+  "smoke_edge_consistency_trial13": {
+    "hazy": {
+      "SSIM_vs_edge_clean": 0.633,
+      "F_vs_edge_clean": 0.705
+    },
+    "dehazed": {
+      "SSIM_vs_edge_clean": 0.707,
+      "F_vs_edge_clean": 0.801
+    }
+  },
+  "synthetic_biped_trial7": {
+    "clean": 0.887,
+    "t=0.7": {
+      "hazy": 0.885,
+      "dehazed": 0.855
+    },
+    "t=0.5": {
+      "hazy": 0.84,
+      "dehazed": 0.828
+    },
+    "t=0.35": {
+      "hazy": 0.73,
+      "dehazed": 0.799
+    }
+  },
+  "synthetic_biped_trial13": {
+    "clean": 0.853,
+    "t=0.7": {
+      "hazy": 0.842,
+      "dehazed": 0.799
+    },
+    "t=0.5": {
+      "hazy": 0.762,
+      "dehazed": 0.783
+    },
+    "t=0.35": {
+      "hazy": 0.591,
+      "dehazed": 0.734
+    }
+  }
+}

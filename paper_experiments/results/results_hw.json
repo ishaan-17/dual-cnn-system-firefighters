@@ -1,0 +1,22 @@
+{
+  "quantized_thread_invariance": {
+    "1_threads_max_abs_diff_vs_1thread": 0,
+    "2_threads_max_abs_diff_vs_1thread": 0,
+    "4_threads_max_abs_diff_vs_1thread": 0
+  },
+  "quantized_output_dtype": "uint8",
+  "macs": {
+    "edge_trial13": 523436032,
+    "dehazer_trial8": 2283798528,
+    "dehazer_over_edge": 4.36,
+    "edge_params": 23228,
+    "dehazer_params": 355043,
+    "dehazer_params_over_edge": 15.29
+  },
+  "x86_latency_ms": {
+    "edge_tflite_uint8_1thread": 18.0,
+    "edge_tflite_uint8_4thread": 10.3,
+    "edge_keras_float32": 19.5,
+    "dehazer_keras_float32": 32.6
+  }
+}

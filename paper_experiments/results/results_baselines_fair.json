@@ -1,0 +1,17 @@
+{
+  "AOD-Net": {
+    "PSNR": 17.08,
+    "SSIM": 0.58,
+    "params": 1761
+  },
+  "DehazeNet": {
+    "PSNR": 13.6,
+    "SSIM": 0.507,
+    "params": 8305
+  },
+  "_corpus": {
+    "train_pairs": 165,
+    "augmented_images": 1320,
+    "note": "SMOKE 110 + DENSE-HAZE 55; 7 augmented copies plus the original"
+  }
+}

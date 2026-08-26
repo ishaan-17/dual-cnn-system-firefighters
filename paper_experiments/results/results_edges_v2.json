@@ -1,0 +1,28 @@
+{
+  "gt_edge_fraction_unthinned": 0.1257,
+  "cnn_trial_7": {
+    "ODS": 0.887,
+    "ODS_thresh": 0.1,
+    "OIS": 0.9,
+    "SSIM": 0.549
+  },
+  "cnn_trial_11": {
+    "ODS": 0.854,
+    "ODS_thresh": 0.1,
+    "OIS": 0.868,
+    "SSIM": 0.532
+  },
+  "cnn_trial_13": {
+    "ODS": 0.853,
+    "ODS_thresh": 0.1,
+    "OIS": 0.871,
+    "SSIM": 0.444
+  },
+  "canny_best": {
+    "F": 0.779,
+    "precision": 0.751,
+    "recall": 0.81,
+    "SSIM": 0.349,
+    "high_thresh": 60
+  }
+}

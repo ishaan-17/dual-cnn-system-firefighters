@@ -1,0 +1,34 @@
+pairs 165 -> corpus 1320
+corpus staged (1320, 256, 256, 3)
+/usr/local/lib/python3.11/dist-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+Epoch 1/50
+66/66 - 89s - 1s/step - loss: 0.0514 - val_loss: 0.0267
+Epoch 2/50
+66/66 - 141s - 2s/step - loss: 0.0478 - val_loss: 0.0267
+Epoch 3/50
+66/66 - 84s - 1s/step - loss: 0.0478 - val_loss: 0.0267
+Epoch 4/50
+66/66 - 147s - 2s/step - loss: 0.0478 - val_loss: 0.0267
+Epoch 5/50
+66/66 - 87s - 1s/step - loss: 0.0478 - val_loss: 0.0267
+Epoch 6/50
+66/66 - 90s - 1s/step - loss: 0.0478 - val_loss: 0.0267
+DehazeNet: PSNR=13.6 SSIM=0.507 params=8305
+{
+  "AOD-Net": {
+    "PSNR": 17.08,
+    "SSIM": 0.58,
+    "params": 1761
+  },
+  "DehazeNet": {
+    "PSNR": 13.6,
+    "SSIM": 0.507,
+    "params": 8305
+  },
+  "_corpus": {
+    "train_pairs": 165,
+    "augmented_images": 1320,
+    "note": "SMOKE 110 + DENSE-HAZE 55; 7 augmented copies plus the original"
+  }
+}

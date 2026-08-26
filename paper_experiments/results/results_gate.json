@@ -1,0 +1,68 @@
+{
+  "tau": 0.5854,
+  "gate_cost_ops_per_frame": 1966080,
+  "gate_cost_pct_of_edge": 0.376,
+  "per_level": {
+    "clean": {
+      "never_dehaze": 0.738,
+      "always_dehaze": 0.71,
+      "gated": 0.736,
+      "oracle": 0.736,
+      "dehaze_rate": 0.02,
+      "mean_haze_score": 0.4202
+    },
+    "t=0.7": {
+      "never_dehaze": 0.72,
+      "always_dehaze": 0.686,
+      "gated": 0.717,
+      "oracle": 0.723,
+      "dehaze_rate": 0.14,
+      "mean_haze_score": 0.5342
+    },
+    "t=0.5": {
+      "never_dehaze": 0.623,
+      "always_dehaze": 0.662,
+      "gated": 0.648,
+      "oracle": 0.669,
+      "dehaze_rate": 0.72,
+      "mean_haze_score": 0.6101
+    },
+    "t=0.35": {
+      "never_dehaze": 0.438,
+      "always_dehaze": 0.598,
+      "gated": 0.598,
+      "oracle": 0.598,
+      "dehaze_rate": 1.0,
+      "mean_haze_score": 0.6671
+    }
+  },
+  "cost_GMAC": {
+    "clean": {
+      "always_GMAC": 2.81,
+      "gated_GMAC": 0.57,
+      "never_GMAC": 0.53
+    },
+    "t=0.7": {
+      "always_GMAC": 2.81,
+      "gated_GMAC": 0.85,
+      "never_GMAC": 0.53
+    },
+    "t=0.5": {
+      "always_GMAC": 2.81,
+      "gated_GMAC": 2.17,
+      "never_GMAC": 0.53
+    },
+    "t=0.35": {
+      "always_GMAC": 2.81,
+      "gated_GMAC": 2.81,
+      "never_GMAC": 0.53
+    }
+  },
+  "mean_dehaze_rate": 0.47,
+  "mean_gated_GMAC": 1.6,
+  "always_GMAC": 2.81,
+  "mean_ODS_never_dehaze": 0.63,
+  "mean_ODS_always_dehaze": 0.664,
+  "mean_ODS_gated": 0.675,
+  "mean_ODS_oracle": 0.681
+}

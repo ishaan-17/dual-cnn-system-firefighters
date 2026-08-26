@@ -1,0 +1,12 @@
+{
+  "AOD-Net": {
+    "PSNR": 17.08,
+    "SSIM": 0.58,
+    "params": 1761
+  },
+  "DehazeNet": {
+    "PSNR": 13.6,
+    "SSIM": 0.507,
+    "params": 8305
+  }
+}
